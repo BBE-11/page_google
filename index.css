@@ -1,23 +1,27 @@
-
-img{
-    display:flex;
-    padding: 20px;
-    margin-left: 750px;
-    margin-top: 10%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-footer{
-padding: 10px;
-margin-top: 20%;
-margin-left: 90%;
-
+body{
+    overflow: hidden;
 }
 header{
-    margin-left: 90%;
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    height: 3%;
+
+}
+navbar{
+    float: right;
+}
+button{
+    background-color:   #7cb4e2;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+    width: fit-content;
+    font-size: 13pt;
+}
+header navbar table tr td{
+    font-size: 13pt;
 }
 .forme{
     display:flex;
@@ -27,11 +31,49 @@ header{
     gap: 20px;
     padding-top: 10px;
 }
-.forme:hover{
+img{
+    display:flex;
+    width: 20%;
+    margin-left: 750px;
+    margin-top: 8%;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=submit]{
     display: flex;
-    background-color: rgb(184, 182, 179);
+    background-color: rgba(226, 223, 217, 0.157);
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: none;
+}
+input[type=submit]:hover{
+    display: flex;
+    background-color: rgb(235, 229, 221);
+    border: 1px solid;
+}
+input[type=text]{
+    padding: 10pt;
+    width: 14cm;
+    border-radius: 30px;
+}
+input[type=text]:hover{
+    padding: 10pt;
+    width: 14cm;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(235, 229, 221);
 }
 .recherche{
     margin: auto;
     max-width: fit-content;
+}
+footer{
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    height: 5%;
+}
+.setting{
+    float:right;
 }

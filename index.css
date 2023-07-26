@@ -1,6 +1,3 @@
-body{
-    overflow: hidden;
-}
 header{
     position: absolute;
     top: 1%;
@@ -76,4 +73,7 @@ footer{
 }
 .setting{
     float:right;
+}
+body{
+    overflow: hidden;
 }
